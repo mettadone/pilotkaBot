@@ -1,0 +1,179 @@
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Form1.resources
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+g:\documents\visual studio 2013\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Form1.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\Documents\Visual Studio 2015\Projects\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventoryMarket.resources
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+G:\Documents\Visual Studio 2013\Projects\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+G:\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+G:\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+G:\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventoryMarket.resources
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Admin\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventoryMarket.resources
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\Max\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventoryMarket.resources
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\User\Desktop\111\PilotkaBot\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.OrdersForm.resources
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.NotificationForm.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.NotificationForm.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.OrdersForm.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Jint.dll
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.dll
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.dll
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.dll
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.pdb
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.xml
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.pdb
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.xml
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.xml
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.InventoryMarketForm.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.config
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.exe
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.pdb
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.pdb
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.dll
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.dll
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.dll
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Jint.dll
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.dll
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.pdb
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.xml
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.pdb
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.xml
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\HtmlAgilityPack.xml
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.xml
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.MainForm.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.InventoryMarketForm.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.FormInventorySteam.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.NotificationForm.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.OrdersForm.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Forms.StatisticForm.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.Properties.Resources.resources
+C:\Users\Max.nezloy\Downloads\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csproj.GenerateResource.Cache
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.dll
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.dll
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Jint.dll
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.dll
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.pdb
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.xml
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.pdb
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.xml
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.xml
+C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.InventoryMarketForm.resources
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.CodeAnalysisLog.xml
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.lastcodeanalysissucceeded

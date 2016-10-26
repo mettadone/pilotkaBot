@@ -1,0 +1,1 @@
+class EvalClass { function Evaluate(expression: String) { return eval(expression); } }
