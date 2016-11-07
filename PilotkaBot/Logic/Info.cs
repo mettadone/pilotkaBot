@@ -21,9 +21,9 @@ namespace PilotkaBot
 {
     public static class Info
     {
-       
 
-        
+
+        public static string dbMarketName = "marketDB.csv";
 
         #region get
         /// <summary>
@@ -97,6 +97,16 @@ namespace PilotkaBot
             
             return html;
         }
+        public static void LoadFile(string url, string saveToFileName)
+        {
+
+            LoadFile(url, String.Empty, saveToFileName);
+        }
+        public static void LoadFile(string url, string loadFileName, string saveToFileName)
+        {
+            WebClient client = new WebClient();
+            client.DownloadFile(url + HttpUtility.UrlEncode(loadFileName), saveToFileName);
+        }
         public static double GetMoney(string url)
         {
             string money = GetUrl(url);
@@ -155,12 +165,15 @@ namespace PilotkaBot
         }
         public static List<JsonResult> GetUrlJSONlist(string url)
         {
-
             return JsonConvert.DeserializeObject<List<JsonResult>>(GetUrl(url));
         }
         public static SteamApiItemCS GetApiItemCS(string url)
         {
             return JsonConvert.DeserializeObject<SteamApiItemCS>(GetUrl(url));
+        }
+        public static CurrentDB GetCurrentDB(string url)
+        {
+            return JsonConvert.DeserializeObject<CurrentDB>(GetUrl(url));
         }
         #endregion
         public static List<Order> GetOrders()

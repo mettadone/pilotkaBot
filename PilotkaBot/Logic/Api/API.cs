@@ -43,6 +43,8 @@ namespace PilotkaBot.Logic
        // public static string csgo_setPrice = @"https://market.csgo.com/api/SetPrice/";
         public static string csgo_removeAll = @"https://market.csgo.com/api/RemoveAll/?key=";
 
+        public static string csgo_currentDB = @"https://market.csgo.com/itemdb/current_730.json";
+        public static string csgo_getCurrentDB = @"https://market.csgo.com/itemdb/";
 
         public static string keyMarket = "3gu14Qg59zgKzw0aKT9FVo7oYY6ReS5";
         public static string keyXYZ = "8754a7606d6b00db0cc9ce1dee003256";

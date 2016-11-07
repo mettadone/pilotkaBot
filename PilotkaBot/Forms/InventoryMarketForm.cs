@@ -24,9 +24,6 @@ namespace PilotkaBot
         BindingList<JsonInventoryResult> marketItems;
         List<string> badMarketColumns = new List<string>() { "min_price_text", "i_market_price_text", "i_name", "i_name_color", "i_descriptions", "type",
                                                             "min_price", "ui_bid", "ui_asset", "ui_price_text", "offer_live_time" };
-
-      
-
         int currentColumnIndex = 0;
         public InventoryMarketForm()
         {

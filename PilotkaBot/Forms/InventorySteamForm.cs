@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using static PilotkaBot.Logic.API;
-
+using static PilotkaBot.;
 namespace PilotkaBot
 {
     public partial class FormInventorySteam : Form
@@ -25,8 +25,9 @@ namespace PilotkaBot
         List<JObject> itemsrgInventory;
         BindingList<JsonInventoryResult> marketItems;
         BindingList<ItemId> soldSteamItems;
+    //    BindingList<InventorySteamTableClass>
 
-        
+
 
 
         #region Form
@@ -138,22 +139,22 @@ namespace PilotkaBot
         {
             //dataGridView1.DataSource = SearchBot.GetUrlJSONInventorySteamlist(@"http://steamcommunity.com/profiles/76561198131830880/inventory/json/570/2/?trading=1");
             SetDataSourceAllItem();
-            FormsLogic.AddColumns(ref dataGridViewForSell, new List<string>()
-            {
-                "name",
-                "type",
-                "min_price",
-                "average_market_price",
-                "lowest_market_price",
-                "highest_market_price",
-                "average_price",
-                "median_price",
-                "highest_price",
-                "lowest_price",
-                "min_earnings",
-                "average_earnings",
-                "max_earnings"
-            });
+            //FormsLogic.AddColumns(ref dataGridViewForSell, new List<string>()
+            //{
+            //    "name",
+            //    "type",
+            //    "min_price",
+            //    "average_market_price",
+            //    "lowest_market_price",
+            //    "highest_market_price",
+            //    "average_price",
+            //    "median_price",
+            //    "highest_price",
+            //    "lowest_price",
+            //    "min_earnings",
+            //    "average_earnings",
+            //    "max_earnings"
+            //});
             SetDataSourceSellItem(dataGridViewForSell);
         }
 

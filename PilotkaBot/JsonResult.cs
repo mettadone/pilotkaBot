@@ -1,7 +1,5 @@
 ﻿namespace PilotkaBot
 {
-
-    //commit
     public class JsonResult
     {
         public string classid { get; set; }

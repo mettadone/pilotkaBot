@@ -19,6 +19,7 @@ using System.Net;
 using Flurl.Http;
 
 using static PilotkaBot.Logic.API;
+using PilotkaBot.Logic.Api;
 
 namespace PilotkaBot.Forms
 {
@@ -27,7 +28,7 @@ namespace PilotkaBot.Forms
         JsonResult currentObject;
         List<SteamPopularItem> popularSteamItems;
 
-   
+
 
         #region Forms
         public StatisticForm()
@@ -38,10 +39,36 @@ namespace PilotkaBot.Forms
         List<SteamPopularItem> SetSteamPopularData(int limit)
         {
             JObject result = null;
-            Info.GetUrlJSON(+limit+"&key="+keyXYZ, ref result);
+            Info.GetUrlJSON(+limit + "&key=" + keyXYZ, ref result);
             return Converter.jArrayToSteamPopularItemsList("items", result);
         }
-        private void StatisticForm_Load(object sender, EventArgs e)
+        void GetMarketDB(string filename)
+        {
+            var BooksFromCsv = from row in File.ReadLines(filename).Where(arg => !string.IsNullOrWhiteSpace(arg) && arg.Length > 0).AsEnumerable()
+                               let column = row.Split(';')
+                               select new MarketDBMini
+                               {
+                                   c_classid = column[0],
+                                   c_instanceid = column[1],
+                                   c_price = column[2],
+                                   // public string c_offers { get; set; }
+                                   c_popularity = column[4],
+                                   c_market_name_en = column[11],
+                                   c_pop = column[14],
+                                   //public string c_rarity { get; set; }
+                                   //public string c_quality { get; set; }
+                                   //public string c_heroid { get; set; }
+                                   //public string c_slot { get; set; }
+                                   //public string c_stickers { get; set; }
+                                   //public string c_market_name { get; set; }
+                                   //public string c_market_name_en { get; set; }
+                                   //public string c_name_color { get; set; }
+                                   //public string c_price_updated { get; set; }
+                                   //public string  { get; set; }
+                               };
+           
+        }
+        void statisticOld()
         {
             popularSteamItems = SetSteamPopularData(0);
             List<JsonResult> history = Info.GetUrlJSONlist(csgo_history);
@@ -71,7 +98,7 @@ namespace PilotkaBot.Forms
                 //    name = Regex.Replace(name, "[^\x0d\x0a\x20-\x7e\t]", "");
                 //if (name.Contains("StatTrak"))
                 //    name = Regex.Replace(name, "StatTrak", "");
-           //     SteamApiItemCS steamInfo = Info.GetApiItemCS(@"http://csgobackpack.net/api/GetItemPrice/?currency=RUB&id=" + marketInfo.market_hash_name + "&time=7&icon=1");//Info.GetSteamApiItem(@"http://api.csgo.steamlytics.xyz/v1/prices/" + marketInfo.market_hash_name + "?key=8754a7606d6b00db0cc9ce1dee003256");
+                //     SteamApiItemCS steamInfo = Info.GetApiItemCS(@"http://csgobackpack.net/api/GetItemPrice/?currency=RUB&id=" + marketInfo.market_hash_name + "&time=7&icon=1");//Info.GetSteamApiItem(@"http://api.csgo.steamlytics.xyz/v1/prices/" + marketInfo.market_hash_name + "?key=8754a7606d6b00db0cc9ce1dee003256");
                 //dataGridViewStatisticMarket.Rows[i].Cells["average_price"].Value = steamInfo.average_price;
                 //dataGridViewStatisticMarket.Rows[i].Cells["median_price"].Value = steamInfo.median_price;
                 //dataGridViewStatisticMarket.Rows[i].Cells["highest_price"].Value = steamInfo.highest_price;
@@ -79,6 +106,11 @@ namespace PilotkaBot.Forms
                 dataGridViewStatisticMarket.Rows[i].Cells["hash"].Value = marketInfo.hash;
                 // Thread.Sleep(10500);
             }
+
+        }
+        private void StatisticForm_Load(object sender, EventArgs e)
+        {
+            GetMarketDB(Info.dbMarketName);
             
         }
         #endregion

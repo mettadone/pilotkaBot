@@ -175,5 +175,4 @@ C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.pdb
 C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\Flurl.Http.xml
 C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\RestSharp.xml
 C:\Users\Max\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.InventoryMarketForm.resources
-C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.CodeAnalysisLog.xml
-C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\bin\Debug\PilotkaBot.exe.lastcodeanalysissucceeded
+C:\Users\User\Desktop\PilotkaBot\PilotkaBot\PilotkaBot\obj\Debug\PilotkaBot.csprojResolveAssemblyReference.cache

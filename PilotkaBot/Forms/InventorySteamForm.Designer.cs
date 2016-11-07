@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dataGridViewAllItems = new System.Windows.Forms.DataGridView();
             this.labelPrice = new System.Windows.Forms.Label();
             this.textBoxPrice = new System.Windows.Forms.TextBox();
@@ -38,11 +39,13 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageSellltems = new System.Windows.Forms.TabPage();
             this.tabPageAllItems = new System.Windows.Forms.TabPage();
+            this.inventorySteamTableClassBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewAllItems)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewForSell)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPageSellltems.SuspendLayout();
             this.tabPageAllItems.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.inventorySteamTableClassBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridViewAllItems
@@ -83,10 +86,15 @@
             // 
             // dataGridViewForSell
             // 
+            this.dataGridViewForSell.AllowUserToAddRows = false;
+            this.dataGridViewForSell.AllowUserToDeleteRows = false;
+            this.dataGridViewForSell.AutoGenerateColumns = false;
             this.dataGridViewForSell.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewForSell.DataSource = this.inventorySteamTableClassBindingSource;
             this.dataGridViewForSell.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridViewForSell.Location = new System.Drawing.Point(3, 3);
             this.dataGridViewForSell.Name = "dataGridViewForSell";
+            this.dataGridViewForSell.ReadOnly = true;
             this.dataGridViewForSell.Size = new System.Drawing.Size(1142, 343);
             this.dataGridViewForSell.TabIndex = 10;
             this.dataGridViewForSell.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewForSell_CellClick);
@@ -141,6 +149,10 @@
             this.tabPageAllItems.Text = "All items in Steam";
             this.tabPageAllItems.UseVisualStyleBackColor = true;
             // 
+            // inventorySteamTableClassBindingSource
+            // 
+            this.inventorySteamTableClassBindingSource.DataSource = typeof(PilotkaBot.TableClasses.InventorySteamTableClass);
+            // 
             // FormInventorySteam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -160,6 +172,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPageSellltems.ResumeLayout(false);
             this.tabPageAllItems.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.inventorySteamTableClassBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -177,5 +190,6 @@
         private System.Windows.Forms.TabPage tabPageAllItems;
         private System.Windows.Forms.TabPage tabPageSellltems;
         private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.BindingSource inventorySteamTableClassBindingSource;
     }
 }

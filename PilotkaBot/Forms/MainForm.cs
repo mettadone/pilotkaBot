@@ -2,12 +2,14 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using PilotkaBot.Forms;
+using PilotkaBot.Logic.Api;
 using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -27,8 +29,9 @@ namespace PilotkaBot
         OrdersForm oF;
         NotificationForm nF;
         JObject result;
+        
 
-       
+
 
         public MainForm()
         {
@@ -50,9 +53,15 @@ namespace PilotkaBot
                 data.DataSource = trades;
             }
         }
+        public void LoadMarketDB()
+        {
+            Info.LoadFile(csgo_getCurrentDB, Info.GetCurrentDB(csgo_currentDB).db.ToString(), Info.dbMarketName);
+        }
+       
         private void Form1_Load(object sender, EventArgs e)
         {            
             moneyLabel.Text = Info.GetMoney(csgo_getMoney + keyMarket).ToString() + " RUB";
+            LoadMarketDB();
             GetTrades(dataGridViewTrades);
             timerPingPong.Start();            
         }
