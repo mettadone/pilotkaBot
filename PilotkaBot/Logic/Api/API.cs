@@ -36,7 +36,7 @@ namespace PilotkaBot.Logic
        // public static string csgo_itemInfo = @"https://market.csgo.com/api/ItemInfo/";
         public static string csgo_itemHistory = @"https://market.csgo.com/api/ItemHistory/";
         public static string csgo_trades = @"https://market.csgo.com/api/Trades/?key=";
-        public static string steam_csgo_inventory = @"http://steamcommunity.com/profiles/76561198131830880/inventory/json/730/2/?trading=1";
+        public static string steam_csgo_inventory = @"http://steamcommunity.com/profiles/" + steamProfileID + "/inventory/json/730/2/?trading=1";
         public static string csgo_setPrice = @"https://market.csgo.com/api/SetPrice/new_";
 
        // public static string csgo_trades = @"https://market.csgo.com/api/Trades/?key=";
@@ -48,5 +48,7 @@ namespace PilotkaBot.Logic
 
         public static string keyMarket = "3gu14Qg59zgKzw0aKT9FVo7oYY6ReS5";
         public static string keyXYZ = "8754a7606d6b00db0cc9ce1dee003256";
+        public static string steamProfileID = "76561198131830880";
+        public static string keySteampowered = "CD6CFA2F5346E01DB82C50067AEF6D73";
     }
 }

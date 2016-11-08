@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using static PilotkaBot.Logic.API;
-using static PilotkaBot.;
+//using static PilotkaBot.;
 namespace PilotkaBot
 {
     public partial class FormInventorySteam : Form
