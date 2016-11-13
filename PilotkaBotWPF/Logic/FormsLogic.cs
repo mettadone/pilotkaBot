@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 
 using static PilotkaBotWPF.Logic.API;
@@ -45,6 +46,17 @@ namespace PilotkaBotWPF.Logic
                 // Thread.Sleep(10500);
             }
         }
+
+        internal static void DeleteColumns(ref System.Windows.Controls.DataGrid data, List<string> columnsNames)
+        {
+            for (int i = 0; i < columnsNames.Count; i++)
+            {
+                for(int j = 0; j < data.Columns.Count; j++)
+                    if(columnsNames[i] == data.Columns[i].Header.ToString())
+                data.Columns.RemoveAt(j);
+            }
+        }
+
         static string Earnings(double steamPrice, double marketPrice)
         {
             if (marketPrice - steamPrice > 0)

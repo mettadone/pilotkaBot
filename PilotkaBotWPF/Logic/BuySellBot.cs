@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Controls;
 using System.Windows.Forms;
 using HtmlAgilityPack;
 
@@ -69,6 +70,16 @@ namespace PilotkaBotWPF
             }
             return null;
             //   HtmlNodeCollection NoAltElements = doc.DocumentNode.SelectNodes("//span[@class='normal_price']");
+        }
+
+        internal static void RunRequestByStatus(System.Windows.Controls.DataGrid dataGridView1, Progress<string> progress, ref bool requestMode)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal static void RunRequestByStatus(System.Windows.Controls.DataGrid dataGridView1)
+        {
+            throw new NotImplementedException();
         }
     }
 }

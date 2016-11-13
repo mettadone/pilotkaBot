@@ -26,6 +26,7 @@ namespace PilotkaBotWPF
     {
         JsonInventoryResult objJsonInventoryResult;
         bool requestMode = true;
+#pragma warning disable 0414
         Task taskRequestMode = null;
         Thread forKill = null;
         BindingList<JsonInventoryResult> marketItems;
@@ -37,11 +38,14 @@ namespace PilotkaBotWPF
             InitializeComponent();
             objJsonInventoryResult = new JsonInventoryResult();
 
+            SetDataSourse();
+            FormsLogic.DeleteColumns(ref dataGridView1, badMarketColumns);
             /* <Timer> */
-            InitializeComponent(); System.Windows.Threading.DispatcherTimer dispatcherTimer = new System.Windows.Threading.DispatcherTimer();
-            dispatcherTimer.Tick += new EventHandler(dispatcherTimer_Tick);
-            dispatcherTimer.Interval = new TimeSpan(0, 5, 0);
-            dispatcherTimer.Start();
+            
+            System.Windows.Threading.DispatcherTimer timerRequest = new System.Windows.Threading.DispatcherTimer();
+            timerRequest.Tick += new EventHandler(timerRequest_Tick);
+            timerRequest.Interval = new TimeSpan(0, 5, 0);
+            timerRequest.Start();
             /* </Timer> */
         }
         /*
@@ -60,7 +64,7 @@ namespace PilotkaBotWPF
         {
             SetDataSourse();
             FormsLogic.DeleteColumns(ref dataGridView1, badMarketColumns);
-            timerRequest.Start();
+            //timerRequest.Start();
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
@@ -72,10 +76,10 @@ namespace PilotkaBotWPF
         {
             if (e.RowIndex > -1)
             {
-                textBoxPrice.Text = (Convert.ToDouble(dataGridView1.Rows[e.RowIndex].Cells["ui_price"].Value) * 100).ToString();
-                objJsonInventoryResult.ui_id = dataGridView1.Rows[e.RowIndex].Cells["ui_id"].Value.ToString();
-                objJsonInventoryResult.i_classid = dataGridView1.Rows[e.RowIndex].Cells["i_classid"].Value.ToString();
-                objJsonInventoryResult.ui_real_instance = dataGridView1.Rows[e.RowIndex].Cells["ui_real_instance"].Value.ToString();
+                textBoxPrice.Text = (Convert.ToDouble((dataGridView1.Items[e.RowIndex] as JsonInventoryResult).ui_price) * 100).ToString();
+                objJsonInventoryResult.ui_id = (dataGridView1.Items[e.RowIndex] as JsonInventoryResult).ui_id.ToString();
+                objJsonInventoryResult.i_classid = (dataGridView1.Items[e.RowIndex] as JsonInventoryResult).i_classid.ToString();
+                objJsonInventoryResult.ui_real_instance = (dataGridView1.Items[e.RowIndex] as JsonInventoryResult).ui_real_instance.ToString();
             }
         }
 
@@ -113,7 +117,7 @@ namespace PilotkaBotWPF
             {
                 forKill = Thread.CurrentThread;
                 BuySellBot.RunRequestByStatus(dataGridView1, progress, ref requestMode);
-                buttonItemRequestModeOff.BeginInvoke((MethodInvoker)(() =>
+                buttonItemRequestModeOff.Dispatcher.BeginInvoke((MethodInvoker)(() =>
                 {
                     buttonItemRequestModeOff.Visibility = Visibility.Hidden;
                     buttonItemRequestMode.Visibility = Visibility.Visible;
@@ -122,6 +126,7 @@ namespace PilotkaBotWPF
             requestMode = false;
         }
 
+#pragma warning disable 0618
         private void buttonItemRequestModeOff_Click_1(object sender, EventArgs e)
         {
 buttonItemRequestModeOff.Visibility = Visibility.Hidden;
@@ -139,11 +144,11 @@ buttonItemRequestModeOff.Visibility = Visibility.Hidden;
 
         private void buttonUpdateGroup_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < dataGridView1.Rows.Count - 1; i++)
+            for (int i = 0; i < dataGridView1.Items.Count - 1; i++)
             {
-                if (objJsonInventoryResult.ui_real_instance == dataGridView1.Rows[i].Cells["ui_real_instance"].Value.ToString()
-                    && objJsonInventoryResult.i_classid == dataGridView1.Rows[i].Cells["i_classid"].Value.ToString())
-                    Info.GetUrl(csgo_setPrice + dataGridView1.Rows[i].Cells["ui_id"].Value + @"/" + textBoxPrice.Text + @"/?key=" + keyMarket);
+                if (objJsonInventoryResult.ui_real_instance == (dataGridView1.Items[i] as JsonInventoryResult).ui_real_instance.ToString()
+                    && objJsonInventoryResult.i_classid == (dataGridView1.Items[i] as JsonInventoryResult).i_classid.ToString())
+                    Info.GetUrl(csgo_setPrice + (dataGridView1.Items[i] as JsonInventoryResult).ui_id + @"/" + textBoxPrice.Text + @"/?key=" + keyMarket);
             }
             dataGridView1.ItemsSource = Info.GetUrlJSONInventorylist(csgo_trades + keyMarket);
             FormsLogic.DeleteColumns(ref dataGridView1, badMarketColumns);
@@ -161,14 +166,14 @@ buttonItemRequestModeOff.Visibility = Visibility.Hidden;
             if (currentColumnIndex == e.ColumnIndex)
             {
                 marketItems = new BindingList<JsonInventoryResult>(marketItems.OrderByDescending(
-                    x => x.GetType().GetProperty(dataGridView1.Columns[e.ColumnIndex].Name).GetValue(x, null)
+                    x => x.GetType().GetProperty(dataGridView1.Columns[e.ColumnIndex].Header.ToString()).GetValue(x, null)
                     ).ToList());
                 currentColumnIndex = 0;
             }
             else
             {
                 marketItems = new BindingList<JsonInventoryResult>(marketItems.OrderBy(
-                        x => x.GetType().GetProperty(dataGridView1.Columns[e.ColumnIndex].Name).GetValue(x, null)
+                        x => x.GetType().GetProperty(dataGridView1.Columns[e.ColumnIndex].Header.ToString()).GetValue(x, null)
                         ).ToList());
                 currentColumnIndex = e.ColumnIndex;
             }

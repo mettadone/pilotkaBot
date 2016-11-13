@@ -7,13 +7,21 @@
         mc:Ignorable="d"
         Title="InventoryMarketWindow" Height="300" Width="300">
     <Grid>
-        <StackPanel>
-            <DataGrid x:Name="dataGridView1" />
-            <Button x:Name="buttonItemRequestModeOff" Content="RequestModeOff" Click="buttonItemRequestModeOff_Click_1" />
-            <Button x:Name="buttonItemRequestMode" Content="RequestMode" />
-            <TextBox x:Name="textBoxPrice" />
-            <Label x:Name="labelProgress" ></Label>
-        </StackPanel>
+        <ScrollViewer>
+            <StackPanel>
 
+                <DataGrid x:Name="dataGridView1" />
+
+                <Button x:Name="buttonItemRequestModeOff" Content="RequestModeOff" Click="buttonItemRequestModeOff_Click_1" />
+                <Button x:Name="buttonItemRequestMode" Content="RequestMode" Click="buttonItemRequestMode_Click_1" />
+                <TextBox x:Name="textBoxPrice" />
+                <Label x:Name="labelProgress" ></Label>
+                <Button x:Name="buttonRemoveAll" Content="RemoveAll" Click="buttonRemoveAll_Click" />
+                <Button x:Name="buttonUpdateGroup" Content="UpdateGroup" Click="buttonUpdateGroup_Click" />
+                <Button x:Name="buttonUpdate" Content="buttonUpdate" Click="buttonUpdate_Click" />
+
+               
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </Window>
