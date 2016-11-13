@@ -7,6 +7,30 @@
         mc:Ignorable="d"
         Title="InventorySteamWindow" Height="300" Width="300">
     <Grid>
-        
+        <ScrollViewer>
+        <StackPanel>
+        <TabControl>
+                <TabItem x:Name="tabPageAllItems" Header="All items in Steam">
+                <StackPanel>
+                    <DataGrid x:Name="dataGridViewAllItems"></DataGrid>
+                </StackPanel>
+            </TabItem>
+
+                <TabItem x:Name="tabPageSellltems" Header="Sell items in Steam">
+                <StackPanel>
+                        <DataGrid x:Name="dataGridViewForSell"></DataGrid>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+
+            <Label x:Name="labelPrice" Content="Price:"></Label>
+            <TextBox x:Name="textBoxPrice"></TextBox>
+            <Button x:Name="buttonSell" Content="Sell" Click="buttonSell_Click"></Button>
+            
+            <Label x:Name="labelCount" Content="Count: "></Label>
+            <Label x:Name="labelProgress"></Label>
+            
+        </StackPanel>
+            </ScrollViewer>
     </Grid>
 </Window>

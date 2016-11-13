@@ -19,9 +19,9 @@
         <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Margin="0,235,9.6,0.4" Grid.RowSpan="2">
             <Label x:Name="moneyTextLabel" Content="Money" FontSize="20" />
             <Label x:Name="moneyLabel" Content="" FontSize="20" />
-            <Button x:Name="buttonStatistic" Content="StatisticForm" FontSize="20" RenderTransformOrigin="1.258,-1.255" Click="buttonStatistic_Click" />
-            <Button x:Name="buttonOrders" Content="OrdersForm" FontSize="20" Click="buttonOrders_Click" />
-            <Button x:Name="buttonInventory" Content="InventoryForm" FontSize="20" Click="buttonInventory_Click" />
+            <Button x:Name="buttonStatistic" Content="StatisticWindow" FontSize="20" RenderTransformOrigin="1.258,-1.255" Click="buttonStatistic_Click" />
+            <Button x:Name="buttonOrders" Content="OrdersWindow" FontSize="20" Click="buttonOrders_Click" />
+            <Button x:Name="buttonInventory" Content="InventoryWindow" FontSize="20" Click="buttonInventory_Click" />
             <Button x:Name="buttonInventorySteam" Content="InventorySteam" FontSize="20" Click="buttonInventorySteam_Click" />
             <Button x:Name="buttonNotification" Content="Notification" FontSize="20" Click="buttonNotification_Click" />
             <Button x:Name="buttonCheck" Content="Check trade restrictions" FontSize="20" Click="buttonCheck_Click" />
