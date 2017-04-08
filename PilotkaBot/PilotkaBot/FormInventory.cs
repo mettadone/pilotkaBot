@@ -26,7 +26,7 @@ namespace PilotkaBot
             //dataGridView1.DataSource = from item in SearchBot.GetUrlJSONparsIntoDictionary(@"https://market.csgo.com/history/json/")
             //                    select new { Key = item.Key, Value = item.Value };
             SearchBot.GetUrlJSON(@"https://market.csgo.com/history/json/");
-            dataGridView1.DataSource = SearchBot.GetUrlJSONInventorylist(@"https://market.csgo.com/api/Trades/?key=3gu14Qg59zgKzw0aKT9FVo7oYY6ReS5");
+            dataGridView1.DataSource = SearchBot.GetUrlJSONInventorylist(@"https://market.csgo.com/api/Trades/?key=" + mykey);
             dataGridView1.Columns.Add("SteamPrice", "SteamPrice");
 //            for (int i = 0; i < 7; i++)
 //            {
